@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Vertiefung – Array-Iteration-Level-1_1</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <h1>Wortfilter</h1>
+    <form onsubmit="return false">
+        <div>
+            <input type="text" name="newWord" id="newWord" placeholder="Neues Wort hinzufügen">
+            <input type="button" value="Hinzufügen" onclick="wordAdd()">
+        </div>
+        <div>
+            <input type="number" name="wordLength" id="wordLength" min="1" placeholder="Wortlänge">
+            <input type="button" value="Filtern" onclick="wordFilter()">
+        </div>
+    </form>
+    <div id="output"></div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
